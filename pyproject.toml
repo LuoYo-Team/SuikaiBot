@@ -1,0 +1,19 @@
+[project]
+name = "SuikaiBot"
+version = "0.7.1.2"
+description = "Default template for PDM package"
+authors = [
+    {name = "无聊的小洛", email = "wuliaodexiaoluo@outlook.com"},
+]
+dependencies = ["requests>=2.32.3", "loguru>=0.7.3"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
